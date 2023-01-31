@@ -20,6 +20,6 @@ while current_savings < portion_down_payment:
 
   current_savings = current_savings + annual_return_from_savings + salary_saved_per_month
   months += 1
-  # print(current_savings, months, annual_salary)
+  print(current_savings, months, annual_salary)
 
 print(months)
